@@ -8,8 +8,5 @@ fn main() {
     });
 
     // Run...
-    if let Err(err) = run(config) {
-        println!("{}", err);
-        process::exit(1);
-    }
+    run(config);
 }
